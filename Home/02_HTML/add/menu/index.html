@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Горизонательное меню</h3>
+    <p><a href="main/main.html">Главная</a> |
+        <a href="catalog/catalog.html">Каталог</a> |
+        <a href="promotions/promotions.html">Акции</a> |
+        <a href="about/about.html">О нас</a></p>
+
+     <h3>Меню с вложенным списком</h3>
+     <ul>
+         <li><a href="main/main.html">Главная</a>
+             <ul><li><a href="main/news/news.html">Новости</a></li></ul>
+         </li>
+         <li><a href="catalog/catalog.html">Каталог</a>
+            <ul>
+                <li><a href="catalog/fall_winter/fall_winter.html"> Осень-Зима</a></li>
+                <li><a href="catalog/spring_summer/spring_summer.html">Весна-Лето</a></li>
+            </ul>
+         </li>
+         <li><a href="promotions/promotions.html">Акции</a>
+            <ul>
+                <li><a href="promotions/actual/actual.html">Актуальные</a></li>
+                <li><a href="promotions/past/past.html">Прошедшие</a></li>  
+            </ul>
+         </li>
+         <li><a href="about/about.html">О нас</a>
+            <ul>
+                <li><a href="about/contacts/contacts.html">Контакты</a></li>
+                <li><a href="about/coming/coming.html">Проезд</a></li>
+            </ul>
+         </li>
+     </ul> 
+     <h3>Меню с вложенным списком</h3>
+     <table border="0">
+         <tr><td><a href="main/main.html">Главная</a><table><tr><td><a href="main/news/news.html">Новости</a></td></tr></table></td></tr>
+         <tr><td>
+             <a href="catalog/catalog.html">Каталог</a>
+             <table>
+                <tr><td><a href="catalog/fall_winter/fall_winter.html">Осень-Зима</a></td></tr>
+                <tr><td><a href="catalog/spring_summer/spring_summer.html">Весна-Лето</a></td></tr>
+             </table>
+        </td></tr>
+        <tr><td><a href="promotions/promotions.html">Акции</a>
+            <table>
+                <tr><td><a href="promotions/actual/actual.html">Актуальные</a></td></tr>
+                <tr><td><a href="promotions/past/past.html">Прошедшие</a></td></tr>
+            </table>
+        </td></tr>
+        <tr><td><a href="about/about.html">О нас</a>
+            <table>
+                <tr><td><a href="about/contacts/contacts.html">Контакты</a></td></tr>
+                <tr><td><a href="about/coming/coming.html">Проезд</a></td></tr>
+            </table>
+        </td></tr>
+     </table>  
+</body>
+</html>
