@@ -1,0 +1,10 @@
+/* Здесь center_img не нужен*/
+center_img{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+div{
+    text-align: center;
+}

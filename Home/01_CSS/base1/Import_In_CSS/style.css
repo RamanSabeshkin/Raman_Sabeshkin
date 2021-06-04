@@ -1,0 +1,9 @@
+@import "python_screen.css" screen;
+@import "python_print.css" print;
+
+.center_img{
+    display: block;
+    margin: 0 auto;
+}
+
+

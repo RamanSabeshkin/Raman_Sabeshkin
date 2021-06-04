@@ -1,0 +1,54 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap")
+
+body{
+
+}
+
+html{
+    background-color: rgba(244, 243, 227, 0.913); 
+}
+
+header {
+    text-align: right;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: medium;
+}
+
+address {
+    font-style: oblique;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    text-indent: 2em;
+    text-decoration: underline;
+    font-family: 'Bad Script';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+article {
+    text-indent: 2em;
+    font-size: 1.2em;
+    font-family: 'Bad Script';
+    letter-spacing: 0.1em;
+}
+
+footer {
+    text-align: left;
+    font-size: 1.1em;
+
+}
+
+
+
+
+
+

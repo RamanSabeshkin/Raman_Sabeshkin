@@ -2,18 +2,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="python.css" type="text/css" />
 <title>Learning HTML5 &amp; CSS3</title>
+<style>
+    @import url("python_screen.css") screen;
+    @import  url("python_print.css") print;
+</style>
 </head>
 <body>
+    <p><img src="Icon-Python.png" title="Логотип Python" alt="Python logo" align="right"></p>
     <h1>HOW-TO: Программа на Python, Часть 1 </h1>
-    
     <ul>
-                <li><EM>Программа на Python — часть 1</EM></li>
-                <li><em>Программа на Python — часть 2</em></li>
-                <li><em>Программа на Python — часть 3</em></li>
+        <em>
+                <li><a href="python1.html" target="_blank">Программа на Python — часть 1</a></li>
+                <li><a href="python2.html" target="_blank">Программа на Python — часть 2</a></li>
+                <li><a href="python3.html" target="_blank">Программа на Python — часть 3</a></li>
+        </em>  
     </ul>
 
-    <h2>Содержание</h2>
+    <h2 id="content">Содержание</h2>
     <h3>HOW-TO: Программа на Python, Часть 1</h3>
     <ul>
         <li><INS>Наша первая программа</INS></li>
@@ -28,7 +35,7 @@
 интерфейсов<INS>(GUI)</INS>. Давайте создадим простую программу прямо сейчас.</p>
 
 <h2>Наша первая программа</h2>
-
+<a href="#content">К содержанию</a>
 <p>Наберём код в текстовом редакторе (например, в <B>gedit</B>). Потом мы разберёмся, что делает
 каждая строка и пойдём дальше.</p>
 
@@ -57,6 +64,7 @@ Hello there, Ferd Burphel!
 greg@earth:~/python_examples$</PRE></p>
 <p>Вот и всё.</p>
 <h2>Пример цикла For</h2>
+<a href="#content">К содержанию</a>
 <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
 редактор и наберите следующую программу:</p>
 
@@ -69,6 +77,10 @@ for cntr in range(0,10):<br>
 <p><EM>Не забудьте поставить символ табуляции перед строкой «print cntr»</EM>. Это важно. В
 Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
 как в других языках программирования, а отступы.</p>
+
+<a href=""><img src="prev.png" align="left" alt="image" title="К предыдущей стратнице"></a>
+<a href="python2.html" target="_blank"><img src="next.png" align="right" alt="image" title="К следующей стратнице"></a>
+<a href="#content"><img src="home.png" class="center_img" alt="image" title="К содержанию"></a>
     
 </body>
 
