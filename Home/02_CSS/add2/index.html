@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        .leftBlock {
+            width: 30%;
+            height: auto;
+            background-color: tomato;
+            color:navy;
+        }
+
+        .rightBlock {
+           width: 70%;
+        }
+
+        .rightBlockinside1 {
+            padding-top: .2px;
+            padding-bottom: 5px;
+            background-color:thistle;
+            padding-left: .1em;
+            color:teal;
+            width: 70%;
+            margin-bottom: .2em;
+        }
+
+        .rightBlockinside2 {
+            height: 270px;
+            padding-top: .2px;
+            padding-bottom: 5px;
+            background-color:thistle;
+            padding-left: .1em;
+            color:teal;
+            width: 70%;
+            margin-bottom: .2em;
+        }
+
+        
+        .footerBlock {
+            width: 100%;
+            background-color: greenyellow;
+            color: indigo;
+            box-sizing: border-box;
+            padding-left: .1em;
+        }
+
+        p{
+            margin-bottom: .5em;
+        }
+
+
+
+    </style>
+</head>
+<body class="flex-container" style="background-color: lightblue;">
+    <div class="leftBlock"><h2>Блок Навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присуствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок наигации наполните контентом достаточным, чтобы по высоте
+                он начинал захватыватьвторую статью, как показано в данном примере</li>
+        </ul>
+        </div>
+        <div class="rightBlock">
+        <div class="rightBlockinside1">
+            <h2>Статья 1</h2>
+            Размер блока:<br>
+            Занимает всю доступную ширину<br>
+            Должен присуствовать цвет фона
+            Во всех "статьях" сделайте отступ снизу от соседей равным .2em,
+            при помощи свойства margin-bottom.
+        </div>
+        <div class="rightBlockinside2">
+            <h2>Статья 2</h2>
+            Размер блока:<br>
+            Занимает всю доступную ширину<br>
+            Должен присуствовать цвет фона
+            Во всех "статьях" сделайте отступ снизу от соседей равным .2em,
+            при помощи свойства margin-bottom. Картинка вставлена при помощи тэга,
+            плавание организованно по правому краю внутри данной статьи для этой картинки.
+            <img src="icon_mail.png" title="Почта" alt="Mail logo" width="100px" align="right">
+        </div>
+        </div>
+        <div class="footerBlock">
+            Нижний блок, подвал. Высота определяется помещенным внутрь контентом.
+        </div>
+</body>
+</html>
