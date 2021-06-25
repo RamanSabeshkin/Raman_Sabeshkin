@@ -8,9 +8,8 @@
 
         .flex-container{
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items: flex-start;
+            align-items: baseline;
+            
         }
 
         .leftBlock {
@@ -20,9 +19,6 @@
             color:navy;
         }
 
-        .rightBlock {
-            width: 60em;
-        }
 
         .rightBlockinside1 {
             padding-top: .2px;
@@ -45,7 +41,6 @@
 
         
         .footerBlock {
-            width: 75em;
             background-color: greenyellow;
             color: indigo;
             box-sizing: border-box;
@@ -61,14 +56,13 @@
 
     </style>
 </head>
-<body class="flex-container" style="background-color: lightblue;">
+<body>
+    <div class="flex-container" style="background-color: lightblue;">
     <div class="leftBlock"><h2>Блок Навигации</h2>
         <ul>
             <li>Ширина 15em</li>
             <li>Должен присуствовать цвет фона</li>
             <li>Располагается слева</li>
-            <li>Блок наигации наполните контентом достаточным, чтобы по высоте
-                он начинал захватыватьвторую статью, как показано в данном примере</li>
         </ul>
         </div>
         <div class="rightBlock">
@@ -91,6 +85,7 @@
             <img src="icon_mail.png" title="Почта" alt="Mail logo" width="100px" align="right">
         </div>
         </div>
+    </div>
         <div class="footerBlock">
             Нижний блок, подвал. Высота определяется помещенным внутрь контентом.
         </div>
