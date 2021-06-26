@@ -4,7 +4,17 @@
             <META charset="utf-8"> 
             <TITLE>Ссылки. Оформление</TITLE> 
 		<style type="text/css">
-			
+			a[href^="https://ru.wikipedia."]::before {content: url(pic/extref.png);}
+            p > a[href="files/document.doc"]::after {content: url(pic/logo-doc.jpg);}
+            p > a[href="files/document.pdf"]::after {content: url(pic/logo-pdf.png);}
+            p > a[href="files/document.zip"]::after {content: url("pic/logo-zip.gif");}
+            li > a[href^="files/"]::before {content: url("pic/logo-list.jpg")}
+            li > a[href^="files/document.doc"]:hover {content: url("pic/logo-doc.jpg");}
+            li > a[href^="files/document.pdf"]:hover {content: url("pic/logo-pdf.png");}
+            li > a[href^="files/document.zip"]:hover {content: url("pic/logo-zip.gif");}
+            p { border: solid 1px lightgrey;
+                border-radius: 0px 5px 0px 5px;
+                padding: .3em}
 		</style>	
         </HEAD> 
         <BODY>

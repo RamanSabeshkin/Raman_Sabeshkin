@@ -6,10 +6,8 @@
 }
 
 .menu ul{
-    list-style: none;
     margin:0px;
     padding:0px;
-    list-style:none;
 }
 
 
@@ -26,7 +24,7 @@
     transition: all .4s;
 }
 
-.menu li:hover {
+.menu ul li:hover {
     background:darkgray;
     color: white;
     transition: all .4s;
